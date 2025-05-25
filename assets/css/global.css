@@ -1,0 +1,117 @@
+:root {
+    --corprincipal: #0052CC;
+    --corprincipaltrans: #0052cca4;
+    --corsecundaria: #1BD13D;
+    --cor01: #60e184;
+    --cor02: #6E48E8;
+    --cor03: #A348E8;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fb;
+  color: #111;
+}
+
+/* Header */
+.site-header {
+  background: var(--corprincipal);
+  color: #fff;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.site-header nav a {
+  
+  color: white;
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: normal;
+  transition: 1s;
+}
+
+.site-header nav a:hover {
+  background-color: var(--corsecundaria);
+  text-decoration: underline;
+  box-shadow: 0px 0px 3px black;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--corprincipaltrans);
+  color: var(--corprincipal);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+#whatsapp {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.5s;
+}
+
+#whatsapp:hover {
+  background-color: var(--cor01);
+  text-decoration: underline;
+  box-shadow: 0px 0px 3px black;
+}
+
+#instagram {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.5s;
+}
+
+#instagram:hover {
+  background-color: var(--cor01);
+  text-decoration: underline;
+  box-shadow: 0px 0px 3px black;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}

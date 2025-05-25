@@ -1,0 +1,99 @@
+:root {
+    --corprincipal: #0052CC;
+    --corprincipaltrans: #0052cca4;
+    --corsecundaria: #1BD13D;
+    --cor01: #60e184;
+    --cor02: #6E48E8;
+    --cor03: #A348E8;
+}
+
+.produtos-page {
+  background-color: var(--cor01);
+}
+
+.titulo {
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 32px;
+  color: var(--corprincipal);
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+.titulo span {
+  color: var(--corprincipal);
+}
+
+.titulo p {
+  color: black;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.filtros {
+  margin-top: 20px;
+}
+
+.filtros button {
+  background: #e0e0e0;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filtros .ativo {
+  background: #0050C8;
+  color: white;
+}
+
+.produtos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.247);
+  text-align: center;
+}
+
+.card img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+.preco {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0050C8;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
