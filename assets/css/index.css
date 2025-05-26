@@ -133,3 +133,38 @@ body {
   width: 150px;
   color: black;
 }
+
+@media (max-width: 550px) {
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .servico {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .servico img {
+    height: 60px;
+    margin-bottom: 5px;
+  }
+
+  .servico p {
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+  }
+
+  .grid {
+    gap: 20px;
+  }
+}

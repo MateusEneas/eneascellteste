@@ -26,11 +26,12 @@ body {
 }
 
 .div-header {
-  display: grid;
-  grid-row-gap: 12px;
-  margin: auto;
-  align-items: end;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -148,4 +149,13 @@ body {
   justify-content: center;
   align-items: center;
   margin: 10px 0px;
+}
+
+@media (max-width: 700px) {
+.div-header {
+  display: grid;
+  grid-row-gap: 12px;
+  margin: auto;
+  align-items: end;
+ }
 }
