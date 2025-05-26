@@ -17,7 +17,7 @@
 
 .titulo h1 {
   font-size: 32px;
-  color: var(--corprincipal);
+  color: white;
   font-weight: bold;
   padding-top: 30px;
   margin: 0px;
@@ -25,7 +25,7 @@
 }
 
 .titulo span {
-  color: var(--corprincipal);
+  color: white;
 }
 
 .titulo p {
