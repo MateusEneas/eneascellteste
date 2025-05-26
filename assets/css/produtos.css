@@ -8,7 +8,7 @@
 }
 
 .produtos-page {
-  background-color: var(--cor01);
+  background-color: var(--corprincipaltrans);
 }
 
 .titulo {
@@ -19,7 +19,7 @@
   font-size: 32px;
   color: var(--corprincipal);
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 30px;
   margin: 0px;
   margin-bottom: 0px;
 }

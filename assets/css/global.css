@@ -1,10 +1,10 @@
 :root {
-    --corprincipal: #0052CC;
-    --corprincipaltrans: #0052cca4;
-    --corsecundaria: #1BD13D;
-    --cor01: #60e184;
-    --cor02: #6E48E8;
-    --cor03: #A348E8;
+  --corprincipal: #0052CC;
+  --corprincipaltrans: #0052cca4;
+  --corsecundaria: #1BD13D;
+  --cor01: #60e184;
+  --cor02: #6E48E8;
+  --cor03: #A348E8;
 }
 
 body {
@@ -25,10 +25,19 @@ body {
   flex-wrap: wrap;
 }
 
+.div-header {
+  display: grid;
+  grid-row-gap: 12px;
+  margin: auto;
+  align-items: end;
+}
+
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .site-header nav {
@@ -36,7 +45,8 @@ body {
   text-align: center;
   align-items: center;
   flex-wrap: wrap;
-  
+  justify-content: center;
+
 }
 
 .site-header nav a {
@@ -47,6 +57,7 @@ body {
   text-decoration: none;
   font-weight: normal;
   transition: 1s;
+  margin-top: 15px;
 }
 
 .site-header nav a:hover {
@@ -57,12 +68,19 @@ body {
 
 /* Footer */
 .site-footer {
-  background: var(--corprincipaltrans);
+  background: var(--corprincipal);
   color: var(--corprincipal);
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.div-footer {
+  display: flex;
+  grid-row-gap: 12px;
+  margin: auto;
+  align-items: center;
 }
 
 .contato {
@@ -71,6 +89,7 @@ body {
   justify-content: center;
   flex-direction: column;
   font-size: 15px;
+  margin: 20px;
 }
 
 #whatsapp {
@@ -114,4 +133,5 @@ body {
   align-items: center;
   font-weight: bold;
   color: white;
+  margin: 20px;
 }
