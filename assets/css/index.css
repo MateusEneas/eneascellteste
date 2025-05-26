@@ -116,7 +116,7 @@ body {
 
 .servicos {
   padding: 50px 20px;
-  background-color: var(--corprincipal);
+  background-color: var(--corprincipaltrans);
   text-align: center;
   color: white;
 }
