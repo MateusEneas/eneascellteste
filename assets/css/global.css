@@ -107,6 +107,7 @@ body {
 
 #whatsapp:hover {
   background-color: var(--cor01);
+  padding: 7px;
   text-decoration: underline;
   box-shadow: 0px 0px 3px black;
 }
@@ -125,6 +126,7 @@ body {
 
 #instagram:hover {
   background-color: var(--cor01);
+  padding: 7px;
   text-decoration: underline;
   box-shadow: 0px 0px 3px black;
 }
