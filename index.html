@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,16 +9,17 @@
   <link rel="stylesheet" href="assets/css/global.css">
   <link rel="shortcut icon" href="assets/img/FONE AZUL ENEASCELL.png" type="image/x-icon">
 </head>
+
 <body>
 
-    <div id="header"></div>
+  <div id="header"></div>
 
   <header class="hero">
     <div class="overlay">
       <h1>TECNOLOGIA E INOVAÇÃO<br>AO SEU ALCANCE</h1>
       <div class="buttons">
-        <a href="produtos.html" class="btn blue">VER ACESSÓRIOS</a>
-        <a href="#" class="btn green">FALE CONOSCO</a>
+        <a href="produtos.html" class="btn">VER ACESSÓRIOS</a>
+        <a href="#" class="btn">FALE CONOSCO</a>
       </div>
     </div>
   </header>
@@ -73,9 +75,9 @@
   <div id="footer"></div>
 
   <script>
-    // Carrega o header e o footer dinamicamente
     fetch('header.html').then(res => res.text()).then(data => document.getElementById('header').innerHTML = data);
     fetch('footer.html').then(res => res.text()).then(data => document.getElementById('footer').innerHTML = data);
   </script>
 </body>
+
 </html>

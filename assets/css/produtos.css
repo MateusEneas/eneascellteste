@@ -1,10 +1,10 @@
 :root {
-    --corprincipal: #0052CC;
-    --corprincipaltrans: #0052cca4;
-    --corsecundaria: #1BD13D;
-    --cor01: #60e184;
-    --cor02: #6E48E8;
-    --cor03: #A348E8;
+  --corprincipal: #0052CC;
+  --corprincipaltrans: #0052cca4;
+  --corsecundaria: #1BD13D;
+  --cor01: #60e184;
+  --cor02: #6E48E8;
+  --cor03: #A348E8;
 }
 
 .produtos-page {
@@ -105,6 +105,7 @@
 }
 
 @media (max-width: 550px) {
+
   .titulo h1 {
     font-size: 20px;
   }
@@ -113,11 +114,10 @@
     font-size: 14px;
     margin: 10px 5px;
   }
-}
 
-@media (max-width: 550px) {
   .produtos-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 produtos lado a lado */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 produtos lado a lado */
     gap: 10px;
     padding: 10px;
   }

@@ -1,10 +1,10 @@
 :root {
-    --corprincipal: #0052CC;
-    --corprincipaltrans: #0052cca4;
-    --corsecundaria: #1BD13D;
-    --cor01: #60e184;
-    --cor02: #6E48E8;
-    --cor03: #A348E8;
+  --corprincipal: #0052CC;
+  --corprincipaltrans: #0052cca4;
+  --corsecundaria: #1BD13D;
+  --cor01: #60e184;
+  --cor02: #6E48E8;
+  --cor03: #A348E8;
 }
 
 * {
@@ -30,21 +30,20 @@ body {
 }
 
 .overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--corprincipaltrans);
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--corprincipaltrans);
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  flex-direction: column;
 }
 
 .hero h1 {
   font-size: 2.5rem;
-  margin: 10px;
-  margin-bottom: 30px;
+  margin: 10px 10px 30px;
 }
 
 .buttons {
@@ -55,6 +54,7 @@ body {
 }
 
 .btn {
+  background-color: var(--corprincipal);
   padding: 15px 23px;
   font-weight: bold;
   text-decoration: none;
@@ -62,24 +62,10 @@ body {
   border-radius: 8px;
   font-size: 1rem;
   margin: 1px;
+  transition: 0, 8s;
 }
 
-.btn.green {
-  background-color: var(--corprincipal);
-  transition: 0.8s;
-}
-
-.btn.green:hover {
-  background-color: var(--cor01);
-  box-shadow: 0px 0px 3px black;
-}
-
-.btn.blue {
-  background-color: var(--corprincipal);
-  transition: 0.8s;
-}
-
-.btn.blue:hover {
+.btn:hover {
   background-color: var(--cor01);
   box-shadow: 0px 0px 3px black;
 }
@@ -135,18 +121,15 @@ body {
 }
 
 @media (max-width: 550px) {
+
   .hero h1 {
     font-size: 1.3rem;
   }
-}
 
-@media (max-width: 550px) {
   .btn {
     font-size: 0.8rem;
   }
-}
 
-@media (max-width: 550px) {
   .servico {
     width: 100px;
     padding: 10px;

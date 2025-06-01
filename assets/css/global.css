@@ -26,10 +26,10 @@ body {
 }
 
 .div-header {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -56,7 +56,7 @@ body {
   margin-left: 10px;
   text-decoration: none;
   font-weight: normal;
-  transition: 1s;
+  transition: 0.5s;
   margin-top: 15px;
 }
 
@@ -93,7 +93,7 @@ body {
   font-size: 15px;
 }
 
-#whatsapp {
+.social-link {
   display: flex;
   align-items: center;
   color: white;
@@ -105,26 +105,7 @@ body {
   transition: 0.5s;
 }
 
-#whatsapp:hover {
-  background-color: var(--cor01);
-  padding: 7px;
-  text-decoration: underline;
-  box-shadow: 0px 0px 3px black;
-}
-
-#instagram {
-  display: flex;
-  align-items: center;
-  color: white;
-  margin: 2px;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 20px;
-  padding: 5px 0px;
-  transition: 0.5s;
-}
-
-#instagram:hover {
+.social-link:hover {
   background-color: var(--cor01);
   padding: 7px;
   text-decoration: underline;
@@ -147,17 +128,18 @@ body {
   }
 }
 
-.logo-footer , contato {
+.logo-footer,
+contato {
   justify-content: center;
   align-items: center;
   margin: 10px 0px;
 }
 
 @media (max-width: 700px) {
-.div-header {
-  display: grid;
-  grid-row-gap: 12px;
-  margin: auto;
-  align-items: end;
- }
+  .div-header {
+    display: grid;
+    grid-row-gap: 12px;
+    margin: auto;
+    align-items: end;
+  }
 }

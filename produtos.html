@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>Eneas Cell - Produtos</title>
   <link rel="stylesheet" href="assets/css/global.css">
   <link rel="stylesheet" href="assets/css/produtos.css">
 </head>
+
 <body>
-  <!-- Header -->
+
   <div id="header"></div>
 
   <main class="produtos-page">
@@ -25,7 +27,6 @@
     </section>
 
     <section class="produtos-grid">
-      <!-- Produto (repita conforme necessário) -->
       <div class="card">
         <img src="assets/img/fone pmcell estilo samsung.webp" alt="Fone de Ouvido PMcell">
         <h3>FONE DE OUVIDO PMCELL FO-13</h3>
@@ -111,18 +112,15 @@
         <a href="#" class="whatsapp-btn">Comprar no WhatsApp</a>
       </div>
 
-
-      <!-- Repita os cards conforme a imagem... -->
     </section>
   </main>
 
-  <!-- Footer -->
   <div id="footer"></div>
 
   <script>
-    // Carrega o header e o footer dinamicamente
     fetch('header.html').then(res => res.text()).then(data => document.getElementById('header').innerHTML = data);
     fetch('footer.html').then(res => res.text()).then(data => document.getElementById('footer').innerHTML = data);
   </script>
 </body>
+
 </html>
